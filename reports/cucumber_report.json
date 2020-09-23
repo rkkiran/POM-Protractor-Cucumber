@@ -1,0 +1,145 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for a festival and add it to the basket",
+    "line": 1,
+    "id": "search-for-a-festival-and-add-it-to-the-basket",
+    "tags": [],
+    "uri": "Tests\\featureFiles\\addFestivalTicket.feature",
+    "elements": [
+      {
+        "id": "search-for-a-festival-and-add-it-to-the-basket;on-home-page-search-for-festival",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "On home page search for festival",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to festicket home page",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6947000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for 'Mad Cool Festival 2021' festival",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "'Mad Cool Festival 2021' festival should appears in the results",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1007000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-festival-and-add-it-to-the-basket;add-a-festival-ticket-to-basket",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Add a festival ticket to basket",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to festicket home page",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "'big-sound-festival' is displayed on sale page and I click Book Now",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I navigate to 'big-sound-festival' shop page and add a 'VIP Front Stage Pass' to basket",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "'VIP Front Stage Pass' should be added successfully to Basket",
+            "match": {
+              "location": "Tests\\stepDefinition\\addFestivalTicket.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
